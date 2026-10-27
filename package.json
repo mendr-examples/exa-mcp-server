@@ -57,7 +57,7 @@
     "prepublishOnly": "npm run build:stdio"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "agnost": "^0.2.0",
     "exa-js": "^2.16.0",
     "jose": "^6.2.2",
@@ -80,6 +80,8 @@
     "node": ">=20.0.0"
   },
   "overrides": {
-    "tar": "^7.5.7"
+    "tar": "^7.5.7",
+    "@modelcontextprotocol/sdk": "$@modelcontextprotocol/sdk",
+    "ip-address": "10.7.5"
   }
 }
